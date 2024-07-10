@@ -1,6 +1,7 @@
 import pygame
 import random
 import sys
+import time
 
 # Initialize Pygame
 pygame.init()
@@ -47,6 +48,9 @@ def draw_text(text, font, color, surface, x, y):
 # Main game loop
 running = True
 while running:
+    # set default game state
+    input_active = True
+    answer_text = "Ask a question."
     screen.fill(white)
 
     for event in pygame.event.get():
@@ -83,8 +87,12 @@ while running:
     draw_text(answer_text, font, black, screen, 100, 200)
 
     # Debug: Print current input and answer text
-    print(f"Input: {input_text}, Answer: {answer_text}")
+    # print(f"Input: {input_text}, Answer: {answer_text}")
 
     pygame.display.flip()
+
+    # if input was entered, display answer for 5 seconds before resetting
+    if input_active == False:
+        time.sleep(5)
 
 pygame.quit()
