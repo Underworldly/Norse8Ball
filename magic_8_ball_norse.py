@@ -65,7 +65,11 @@ while running:
                     if input_text.strip() != "":
                         answer_text = random.choice(norse_wisdom)
                         input_active = False
-                        input_text = ""
+
+                        # Debug: Print current input and answer text
+                        print(f"Input: {input_text}, Answer: {answer_text}")
+
+                        
                     else:
                         answer_text = "Please ask a question."
                 elif event.key == pygame.K_BACKSPACE:
@@ -86,13 +90,14 @@ while running:
     # Draw answer text
     draw_text(answer_text, font, black, screen, 100, 200)
 
-    # Debug: Print current input and answer text
-    # print(f"Input: {input_text}, Answer: {answer_text}")
+    
 
     pygame.display.flip()
 
     # if input was entered, display answer for 5 seconds before resetting
+    # can't leave feature :)
     if input_active == False:
         time.sleep(5)
+        input_text = ""
 
 pygame.quit()
