@@ -8,7 +8,7 @@ In order to play this game, here are the following steps:
      
      > ❗❗❗ **It's extremely important to have everything in the directory properly otherwise the code will not work.**
      
-  4. From there, I usually go to the Command Prompt and open the directory I put my files in. To do that, type `cd \Magic_8_Ball` or `cd \Documents\norse_8_ball`. It should then open up that specific directory. You can check everything is inside by typing `dir` in Command Prompt. If everything looks good, then....
+  4. From there, I usually go to the Command Prompt and open the directory I put my files in. To do that, type `cd \norse_8_Ball` or `cd \Documents\norse_8_ball`. It should then open up that specific directory. You can check everything is inside by typing `dir` in Command Prompt. If everything looks good, then....
   5. Finally, type the following code in `python norse_8_ball.py` in Command Prompt and the game window should pop up!
 
 If you have any trouble with the game, Google is a great resource 😉, but I'm also happy to help my fellow classmates! Also, let me know of any other good Ancient Norse wisdom to include and maybe I'll manage to add it!
