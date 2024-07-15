@@ -12,3 +12,7 @@ In order to play this game, here are the following steps:
   5. Finally, type the following code in `python norse_8_ball.py` in Command Prompt and the game window should pop up!
 
 If you have any trouble with the game, Google is a great resource 😉, but I'm also happy to help my fellow classmates! Also, let me know of any other good Ancient Norse wisdom to include and maybe I'll manage to add it!
+
+
+Special thanks to my friend Michael P. who helped fix all the errors in `first_iteration.py`, making it a functional piece of code! Although I ended up changing a lot and almost giving up completely, it was your patience, time, and conversation that helped push me through! Thank you for taking the time to help and listen to me rant. 
+It is still a functional game so you can check that out too if you wish.
